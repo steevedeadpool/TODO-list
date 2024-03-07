@@ -1,14 +1,4 @@
-const TODO_LIST = [
-    {
-        title: 'Помыть кота',
-        status: false
-    },
-    {
-        title: 'Вытащить курица из морозилки',
-        status: true
-        
-    }
-]
+const TODO_LIST = []
 
 function add_task(event) {
     const input_elem = document.getElementById('input_task');
